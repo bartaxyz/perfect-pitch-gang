@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "8e7fc656e83468bc9fad",
-    "url": "/perfect-pitch-gang/static/js/app.e5596185.chunk.js"
+    "revision": "133f8323626fc4d07e51",
+    "url": "/perfect-pitch-gang/static/js/app.ec7dcaab.chunk.js"
   },
   {
     "revision": "4283b78cda05ea7b71b7",
@@ -436,7 +436,7 @@ self.__precacheManifest = [
     "url": "/perfect-pitch-gang/static/media/Gb7.134d9f89.m4a"
   },
   {
-    "revision": "470162ac0a971f1aea5971c576a09049",
+    "revision": "aa2a2e4df3d3f03b9fe78189e8464995",
     "url": "/perfect-pitch-gang/index.html"
   },
   {
