@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/perfect-pitch-gang/precache-manifest.14271788c8e73dfadc896cf796f69826.js"
+  "/perfect-pitch-gang/precache-manifest.44003bda3aabed9110dd964a52276142.js"
 );
 
 workbox.skipWaiting();

@@ -1,7 +1,7 @@
 {
   "files": {
-    "app.js": "/perfect-pitch-gang/static/js/app.ec7dcaab.chunk.js",
-    "app.js.map": "/perfect-pitch-gang/static/js/app.ec7dcaab.chunk.js.map",
+    "app.js": "/perfect-pitch-gang/static/js/app.b5926fbb.chunk.js",
+    "app.js.map": "/perfect-pitch-gang/static/js/app.b5926fbb.chunk.js.map",
     "runtime~app.js": "/perfect-pitch-gang/static/js/runtime~app.93371d3c.js",
     "runtime~app.js.map": "/perfect-pitch-gang/static/js/runtime~app.93371d3c.js.map",
     "static/js/2.f055f12d.chunk.js": "/perfect-pitch-gang/static/js/2.f055f12d.chunk.js",
@@ -123,6 +123,6 @@
   "entrypoints": [
     "static/js/runtime~app.93371d3c.js",
     "static/js/2.f055f12d.chunk.js",
-    "static/js/app.ec7dcaab.chunk.js"
+    "static/js/app.b5926fbb.chunk.js"
   ]
 }
