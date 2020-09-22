@@ -1,21 +1,89 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React from "react";
+import { StatusBar } from "expo-status-bar";
+import { useFonts } from "expo-font";
+import {
+  Poppins_400Regular,
+  Poppins_600SemiBold,
+  Poppins_700Bold,
+} from "@expo-google-fonts/poppins";
+import { createStackNavigator } from "@react-navigation/stack";
+import {
+  NavigationContainer,
+  NavigationProp,
+  RouteProp,
+  DefaultTheme,
+} from "@react-navigation/native";
+
+import { Home } from "./src/screens/Home";
+import { Intro } from "./src/screens/Intro";
+
+const RootTheme = {
+  ...DefaultTheme,
+  colors: {
+    ...DefaultTheme.colors,
+    primary: "rgb(255, 45, 85)",
+    background: "white",
+  },
+};
+
+export type RootNavigatorParams = {
+  Intro: undefined;
+  Home: undefined;
+};
+
+export type RootNavigationProp<
+  T extends keyof RootNavigatorParams
+> = NavigationProp<RootNavigatorParams, T>;
+
+export type RootRouteProp<T extends keyof RootNavigatorParams> = RouteProp<
+  RootNavigatorParams,
+  T
+>;
+
+const Stack = createStackNavigator<RootNavigatorParams>();
 
 export default function App() {
+  let [fontsLoaded] = useFonts({
+    Poppins_400Regular,
+    Poppins_600SemiBold,
+    Poppins_700Bold,
+  });
+
+  if (!fontsLoaded) {
+    return null;
+  }
+
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <React.Fragment>
+      <NavigationContainer
+        theme={RootTheme}
+        // linking={{
+        //   prefixes: ["https://bartaxyz.github.io/perfect-pitch-gang"],
+        //   config: {
+        //     screens: {
+        //       Intro: "/",
+        //       Home: "/home",
+        //     },
+        //   },
+        // }}
+      >
+        <Stack.Navigator
+        headerMode="none"
+          screenOptions={{
+            headerStyle: {
+              borderWidth: 0,
+              elevation: 0,
+              backgroundColor: "transparent",
+            },
+            headerTitle: "",
+          }}
+        >
+          <Stack.Screen name="Intro" component={Intro} />
+          <Stack.Screen name="Home" component={Home} />
+        </Stack.Navigator>
+      </NavigationContainer>
+
+      <StatusBar style="dark" />
+    </React.Fragment>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

@@ -1,9 +1,10 @@
 {
   "expo": {
-    "name": "perfect-pitch-gang",
+    "name": "Perfect Pitch Gang",
     "slug": "perfect-pitch-gang",
     "version": "1.0.0",
     "orientation": "portrait",
+    "privacy": "public",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
@@ -21,6 +22,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "description": "",
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.foreground.png",
+        "backgroundImage": "./assets/icon.background.png"
+      }
+    },
+    "androidNavigationBar": {
+      "barStyle": "dark-content",
+      "backgroundColor": "#ffffff"
     }
   }
 }
