@@ -5,7 +5,7 @@ import {
   Platform,
 } from "react-native";
 import { TouchableWithoutFeedback } from "react-native-gesture-handler";
-import Svg, { Circle, RadialGradient, Stop } from "react-native-svg";
+import Svg, { Circle } from "react-native-svg";
 import styled from "styled-components/native";
 
 import { NoteIcon } from "../../icons/NoteIcon";
@@ -66,11 +66,7 @@ export const TouchableNote: React.FC<TouchableNoteProps> = ({
           }}
         >
           <Svg width={40} height={40}>
-            <RadialGradient id="gradient">
-              <Stop stopColor="#8EBFED" stopOpacity={0.02} offset="20%" />
-              <Stop stopColor="#8EBFED" stopOpacity={0.2} offset="100%" />
-            </RadialGradient>
-            <Circle cx="20" cy="20" r="20" fill="url(#gradient)" />
+            <Circle cx="20" cy="20" r="20" fill="#F1B929" fillOpacity={0.2} />
           </Svg>
         </Animated.View>
       </BackgroundCircle>

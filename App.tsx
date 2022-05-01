@@ -16,6 +16,7 @@ import {
 
 import { Home } from "./src/screens/Home";
 import { Intro } from "./src/screens/Intro";
+import { rgba } from "polished";
 
 const RootTheme = {
   ...DefaultTheme,
@@ -31,9 +32,8 @@ export type RootNavigatorParams = {
   Home: undefined;
 };
 
-export type RootNavigationProp<
-  T extends keyof RootNavigatorParams
-> = NavigationProp<RootNavigatorParams, T>;
+export type RootNavigationProp<T extends keyof RootNavigatorParams> =
+  NavigationProp<RootNavigatorParams, T>;
 
 export type RootRouteProp<T extends keyof RootNavigatorParams> = RouteProp<
   RootNavigatorParams,
@@ -68,8 +68,11 @@ export default function App() {
         // }}
       >
         <Stack.Navigator
-        headerMode="none"
+          headerMode="none"
           screenOptions={{
+            cardStyle: {
+              backgroundColor: rgba("#F1B929", 0.1),
+            },
             headerStyle: {
               borderWidth: 0,
               elevation: 0,

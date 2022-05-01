@@ -110,7 +110,7 @@ export const Home = () => {
           <NoteHelper>
             <NoteHelperLabel>(Tap</NoteHelperLabel>
             <NoteHelperIcon>
-              <NoteIcon color="#8ebfed" size={16} />
+              <NoteIcon color="#F1B929" size={16} />
             </NoteHelperIcon>
             <NoteHelperLabel>to hear it again)</NoteHelperLabel>
           </NoteHelper>
@@ -172,7 +172,7 @@ const NoteHelper = styled.View`
 const NoteHelperLabel = styled.Text`
   font-family: Poppins_400Regular;
   font-size: 12px;
-  color: #8ebfed;
+  color: #F1B929;
 `;
 const NoteHelperIcon = styled.View`
   margin: 0 4px;
