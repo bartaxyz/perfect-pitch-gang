@@ -1,11 +1,11 @@
 {
   "files": {
-    "app.js": "/perfect-pitch-gang/static/js/app.05cf93b5.chunk.js",
-    "app.js.map": "/perfect-pitch-gang/static/js/app.05cf93b5.chunk.js.map",
+    "app.js": "/perfect-pitch-gang/static/js/app.586681f9.chunk.js",
+    "app.js.map": "/perfect-pitch-gang/static/js/app.586681f9.chunk.js.map",
     "runtime~app.js": "/perfect-pitch-gang/static/js/runtime~app.93371d3c.js",
     "runtime~app.js.map": "/perfect-pitch-gang/static/js/runtime~app.93371d3c.js.map",
-    "static/js/2.728a9df9.chunk.js": "/perfect-pitch-gang/static/js/2.728a9df9.chunk.js",
-    "static/js/2.728a9df9.chunk.js.map": "/perfect-pitch-gang/static/js/2.728a9df9.chunk.js.map",
+    "static/js/2.fcee3255.chunk.js": "/perfect-pitch-gang/static/js/2.fcee3255.chunk.js",
+    "static/js/2.fcee3255.chunk.js.map": "/perfect-pitch-gang/static/js/2.fcee3255.chunk.js.map",
     "fonts/Poppins_100Thin.ttf": "/perfect-pitch-gang/./fonts/Poppins_100Thin.ttf",
     "fonts/Poppins_100Thin_Italic.ttf": "/perfect-pitch-gang/./fonts/Poppins_100Thin_Italic.ttf",
     "fonts/Poppins_200ExtraLight.ttf": "/perfect-pitch-gang/./fonts/Poppins_200ExtraLight.ttf",
@@ -30,7 +30,7 @@
     "index.html": "/perfect-pitch-gang/index.html",
     "manifest.json": "/perfect-pitch-gang/manifest.json",
     "serve.json": "/perfect-pitch-gang/serve.json",
-    "static/js/2.728a9df9.chunk.js.LICENSE.txt": "/perfect-pitch-gang/static/js/2.728a9df9.chunk.js.LICENSE.txt",
+    "static/js/2.fcee3255.chunk.js.LICENSE.txt": "/perfect-pitch-gang/static/js/2.fcee3255.chunk.js.LICENSE.txt",
     "static/media/A0.mp3": "/perfect-pitch-gang/static/media/A0.20a5cb4d.mp3",
     "static/media/A1.mp3": "/perfect-pitch-gang/static/media/A1.0178dea7.mp3",
     "static/media/A2.mp3": "/perfect-pitch-gang/static/media/A2.2856f51a.mp3",
@@ -122,7 +122,7 @@
   },
   "entrypoints": [
     "static/js/runtime~app.93371d3c.js",
-    "static/js/2.728a9df9.chunk.js",
-    "static/js/app.05cf93b5.chunk.js"
+    "static/js/2.fcee3255.chunk.js",
+    "static/js/app.586681f9.chunk.js"
   ]
 }
